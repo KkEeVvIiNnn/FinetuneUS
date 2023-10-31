@@ -1,0 +1,13 @@
+python main.py \
+    --device=cuda \
+    --dataset=Books-Movies_and_TV \
+    --do_train \
+    --do_test \
+    --epochs 10 \
+    --max_his_len 20 \
+    --max_review_len 50 \
+    --lr 0.001 \
+    --dropout_rate 0.5 \
+    --hidden_units 50 \
+    --num_blocks 2 \
+    --num_heads 1

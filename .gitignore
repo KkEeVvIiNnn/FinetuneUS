@@ -1,0 +1,6 @@
+backup_codes
+*.log
+**/logs
+**/outputs
+data
+**\__pycache__
